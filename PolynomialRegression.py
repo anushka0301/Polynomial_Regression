@@ -29,7 +29,7 @@ lin_reg.fit(X, Y)
 from sklearn.preprocessing import PolynomialFeatures
 poly_reg=PolynomialFeatures(degree=5)
 X_poly=poly_reg.fit_transform(X)
-lin_reg_2=LinearRegression()
+lin_reg_2=LinearRegression()#Fitting into a Multiple Linear Regression model
 lin_reg_2.fit(X_poly, Y)
 
 #Visualizing Linear Regression results
